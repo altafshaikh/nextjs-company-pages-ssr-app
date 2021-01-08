@@ -1,0 +1,43 @@
+[
+  {
+    "companyLogo": "https://www.raweng.com/v3/assets/bltaacb6b0c9b693c2d/bltc1a71705f49d391d/5de663548d1dce6ad6bed8bf/header-logo.svg?format=pjpg&width=220",
+    "companyEmail": "contact@raweng.com",
+    "about": "Raw Engineering is an Innovative Digital Solutions company providing Digital Transformation Strategy and Custom Development Services. We partner with the world’s best Fortune 500 Enterprises and Startups to deliver Headless CMS Strategy & Implementation, Mobile Apps, Websites, SaaS Products, Cloud Strategy, DevOps and SRE Solutions.",
+    "bannerImage": "https://www.raweng.com/v3/assets/bltaacb6b0c9b693c2d/blte86401d468e74845/5e3137f08f7e217daef66f54/Landing_Page_Image_Motion.jpg?format=pjpg&width=540",
+    "heroContent": {
+      "heading": "Fast Track Innovation From Vision to Reality",
+      "content": "Raw Engineering’s experienced Strategic Consultants, Solutions Architects, Designers, and Developers turn Business Vision into Digital Reality."
+    },
+    "whatWeDo": [
+      {
+        "title": "Digital Transformation: Building the Modern Microservices Stack",
+        "image": "https://www.raweng.com/v3/assets/bltaacb6b0c9b693c2d/blt295b153f13c76458/5e313899507d2f74fb78ca3c/Digital_Transformation3_us_xT3DQ40lus4.png?format=pjpg&width=590",
+        "description": "Raw Engineering was an early leader in the movement to architect and build the modern, microservices-driven tech stack. We bring strategic thinking and years of experience to help our clients transform their Digital Enterprise.",
+        "link": "https://www.raweng.com/services/digital-transformation"
+      },
+      {
+        "title": "Headless CMS Strategy & Implementation",
+        "image": "https://www.raweng.com/v3/assets/bltaacb6b0c9b693c2d/blt7086f439cbf73917/5e3139295e4f947dad55051c/CMS_3_us_ftrk7wDc.png?format=pjpg&width=590",
+        "description": "Raw Engineering pioneered the Headless CMS space. We innovated, built and spun out Contentstack, the industry’s leading headless CMS. Now, we help our clients strategically evaluate, implement and maintain their Headless CMS. We analyze how our customers intend to deliver content, in what channels they intend to present content, who will be creating content and who will be consuming the content. We work with both Marketing and IT teams to enable the best Headless CMS experience for each client.We architect the Content Models, develop the Content Components, integrate the microservices and deploy the site.",
+        "link": "https://www.raweng.com/services/headless-cms"
+      },
+      {
+        "title": "Custom Mobile, Web & Product Development",
+        "image": "https://www.raweng.com/v3/assets/bltaacb6b0c9b693c2d/bltd79ae6da8136868e/5e3139024c16654538e2d5de/CustomDev_3-unsplash.png?format=pjpg&width=590",
+        "description": "We have over two million hours of experience building mobile apps and websites that scale to millions of users. If you’re looking for a team that delivers enterprise quality and functionality at startup speed, we have you covered.",
+        "link": "https://www.raweng.com/services/custom-development"
+      },
+      {
+        "title": "DevOps, CloudOps & Site Reliability Engineering",
+        "image": "https://www.raweng.com/v3/assets/bltaacb6b0c9b693c2d/blt573767a4004d6b02/5e3138cb5b0dbe756af01636/DevOps_&_Cloud_Management_resized.png?format=pjpg&width=590",
+        "description": "DevOps & Cloud Management is in our DNA. Our company was founded to help clients move infrastructure to the Cloud and to maintain their infrastructure in the Cloud. We became an AWS partner is 2007, and have been expanding our services since to include MS Azure, Google Cloud, CI/CD, etc.",
+        "link": "https://www.raweng.com/services/devops-cloudops-site-reliability-engineering"
+      }
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/raweng",
+      "linkedin": "https://www.linkedin.com/company/raw-engineering",
+      "facebook": "https://www.facebook.com/rawengineering/"
+    }
+  }
+]
