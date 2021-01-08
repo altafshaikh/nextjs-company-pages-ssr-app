@@ -1,0 +1,67 @@
+[
+  {
+    "companyLogo": "https://images.contentstack.io/v3/assets/blt137524604e62b5cb/blte814c52ab7983cb7/5ed94783ff1cb239b9500ed0/logo@3x.svg",
+    "companyEmail": "info@surfboardventures.com",
+    "bannerImage": "",
+    "heroContent": {
+      "heading": "The Entrepreneur’s Surfboard",
+      "content": "Entrepreneurship isn’t just about the end game. It’s about the journey. There are ups and downs. Your resilience stands tall against the roughest seas. Sometimes you prevail. Sometimes you wipe out. We are here to help remarkable entrepreneurs to “just keep paddling” and provide the courage they need to ride the highest of waves."
+    },
+    "portfolioCompanies": {
+      "image": "https://images.contentstack.io/v3/assets/blt137524604e62b5cb/blt14ab38a8eb6d7a52/5ff2c7b38884c20ac3ca5d53/Our-Portfolio-Companies-Graphic@3x.png?auto=webp&quality=100&format=pjpg",
+      "companies": [
+        {
+          "title": "Raw Engineering",
+          "description": "Raw Engineering has been trusted for more than a decade by the world’s most innovative startups, sports franchises and leading Fortune 500 companies for Web, Mobile and DevOps solutions and services."
+        },
+        {
+          "title": "Contentstack",
+          "description": "Contentstack is the leading API-first content hub at the intersection of CMS (content management systems) and DXP (digital experience platforms) powering modernized digital experiences."
+        },
+        {
+          "title": "Built.io",
+          "description": "Acquired in 2018 by German software powerhouse, Software AG, Built.io Flow is an intelligent Integration Platform-as-a-Service (iPaaS) to power business workflows."
+        },
+        {
+          "title": "Education Basics",
+          "description": "Education Basics (edbā) offers an all-in-one, next-gen education management system so institutes can focus more on delivering value to students, and less on daily administrative tasks."
+        },
+        {
+          "title": "iRobokid",
+          "description": "iRobokid is an educational organisation specialising in STEM Education through Robotics, Coding, 3D printing, Electrics and Electronics."
+        }
+      ]
+    },
+    "team": [
+      {
+        "name": "Neha Sampat",
+        "imageUrl": "https://images.contentstack.io/v3/assets/blt137524604e62b5cb/blte47f673f3761153a/5edf71fce92db173fb37dd46/NehaSampat_1@2x.png?auto=webp&quality=100&format=pjpg",
+        "about": "Neha is a recognized industry leader, a proponent of diversity and an outspoken advocate for women in leadership. Neha sits on the Board of the Developers Alliance supporting professional growth for developers. She can be found appearing on keynote stages or expert panels discussing her experiences as an entrepreneur, a female leader, or her company's role in the future of technology. Neha was named in “San Francisco Business Times Most Influential Women in Bay Area Business” in 2017, is a “San Francisco Business Times 40 under 40” honoree and one of “50 Women in Tech Dominating Silicon Valley” in 2015."
+      },
+      {
+        "name": "Nishant Patel",
+        "imageUrl": "https://images.contentstack.io/v3/assets/blt137524604e62b5cb/blt90d577e27ffbf3ce/5ee7155ecbf640451d271ea5/Nishant-pic@2x.png?auto=webp&quality=100&format=pjpg",
+        "about": "Nishant brings 22 years of experience solving complex technology and cloud integration problems for large enterprises as a respected and trusted technology advisor to Fortune 500 clients and marquee brands. He served on the Advisory Board to the City of San Francisco’s Smart City Initiative and supports technology education initiatives for the fastest growing municipality in India. Prior to founding Built.io, Nishant was a Senior Architect at TIBCO Software where he helped design the foundation for modern day enterprise integration. Nishant holds a B.S. in Computer Science from The Ohio State University."
+      }
+    ],
+    "philosophy": [
+      {
+        "heading": "We respect diversity",
+        "image": "https://images.contentstack.io/v3/assets/blt137524604e62b5cb/blta325d34ec2c671f2/5eda220808d08473f007af24/We-respect-diversity-icon@3x.svg",
+        "content": "Leadership teams with gender balance deliver better results on gross profit, brand image and client satisfaction as well as employee retention, engagement and safety. We believe in backing leaders with diverse backgrounds."
+      },
+      {
+        "heading": "We don't make pattern-based decisions",
+        "image": "https://images.contentstack.io/v3/assets/blt137524604e62b5cb/blta9c970898fa84d40/5eda2220cfec112ba2620fdf/We-don_t-make-pattern-based-decisions-icon@3x.svg",
+        "content": "We believe a path to success is not linear, but often full of twists, turns and pivots. Surfboard Ventures backs entrepreneurs who may be taking the road less traveled to find their North Star."
+      }
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/surfboardvc",
+      "linkedin": "https://www.linkedin.com/company/surfboard-ventures/",
+      "facebook": "https://www.facebook.com/Surfboard-Ventures-100337055057153/?modal=admin_todo_tour",
+      "youtube": "https://www.youtube.com/channel/UCHP7aaa0Bd8ujnc3g6Tl4yA/",
+      "instagram": "https://www.instagram.com/surfboardventures/"
+    }
+  }
+]
