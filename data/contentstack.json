@@ -1,0 +1,35 @@
+[
+  {
+    "companyLogowhite": "https://images.contentstack.io/v3/assets/bltc5a09bf374882538/blt8dc4dd93cd29ae05/5f1a2be13986577a2d5f6736/Contentstack-full-logo-white_800x133.png",
+    "companyLogoBlack": "https://images.contentstack.io/v3/assets/bltc5a09bf374882538/blt954cedac0397edba/5f1a2be1d0350a5e2a2fde71/contentstack-footer-logo.png",
+    "bannerImages": [
+      "https://images.contentstack.io/v3/assets/bltc5a09bf374882538/blt66f4449fa1b24162/5f1a2be22ac1577a44a8bfd7/hero-carousel-3.jpg",
+      "https://images.contentstack.io/v3/assets/bltc5a09bf374882538/blt0d96d9419a9f789c/5f1a2be27898105d1a4d7393/hero-carousel-2_(1).jpg"
+    ],
+    "heroContent": {
+      "heading": "Finally, A Modern Content Management System",
+      "content": "Contentstack brings business and technology teams together to deliver personalized, omnichannel digital experiences."
+    },
+    "whySection": [
+      {
+        "title": "Idea-to-Deployment in Record Time",
+        "content": "Accelerate the delivery of digital content, sites, and apps to bring new experiences to life in days, not months, with a modern CMS."
+      },
+      {
+        "title": "Improve ROI and ‘Return on Experience’",
+        "content": "Reap greater returns on investments – both past and future – in digital content and digital experiences."
+      },
+      {
+        "title": "Better Collaboration, Better Control",
+        "content": "Bring business and technology teams into harmony with our headless CMS, and unleash the full potential of your marketers, editors, designers, and developers."
+      }
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/contentstack",
+      "linkedin": "https://www.linkedin.com/company/contentstack",
+      "facebook": "https://www.facebook.com/contentstack",
+      "youtube": "https://www.youtube.com/contentstack",
+      "github": "https://github.com/contentstack"
+    }
+  }
+]
