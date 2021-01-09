@@ -5,7 +5,7 @@ export default function Try() {
   return (
     <>
       <Row>
-        <div className="container py-3" style={{ maxWidth: "100%" }}>
+        <div className="container" style={{ maxWidth: "100%" }}>
           <div
             style={{
               backgroundImage:

@@ -121,9 +121,9 @@ export default function Footer({ socialLinks, logo }) {
           </Row>
           <hr
             className="font-weight-bold my-5"
-            style={{ background: "black" }}
+            style={{ background: "black", width: "95%" }}
           />
-          <Row className="text-right">
+          <Row className="text-right px-3">
             <Col>
               <ul className="list-unstyled list-inline pb-5">
                 <li className="list-inline-item">Terms</li>

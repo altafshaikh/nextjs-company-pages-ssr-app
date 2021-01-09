@@ -1,6 +1,10 @@
 @import "variables_mixins";
 @import "bootstrap";
 
-body {
-  overflow-x: hidden;
+// body {
+//   overflow-x: hidden;
+// }
+
+* {
+  margin: 1px solid red;
 }
