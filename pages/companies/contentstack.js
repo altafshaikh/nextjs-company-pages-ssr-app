@@ -3,6 +3,7 @@ import axios from "axios";
 // components
 import Layout from "../../components/Layout";
 import Navbar from "../../components/contentstack/navbar";
+import Banner from "../../components/contentstack/banner";
 import Footer from "../../components/contentstack/footer";
 
 // constants
@@ -15,13 +16,14 @@ export default function contentstack(props) {
     backgroundPosition: "center",
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
-    height: "100vh",
+    width: "100%",
   };
   return (
     <div>
       <Layout title="Contentstack" Footer={Footer}>
         <header style={headerStyle}>
           <Navbar logo={props.companyData.companyLogowhite} />
+          <Banner heroContent={props.companyData.heroContent} />
         </header>
         <h1>Contentstack</h1>
       </Layout>
