@@ -4,6 +4,7 @@ export default function Layout({
   children,
   title = "Home | Landing Page",
   Navbar,
+  Footer,
 }) {
   return (
     <div>
@@ -16,9 +17,11 @@ export default function Layout({
         <Navbar />
       </header>
 
+      {/* main */}
+
       {children}
 
-      <footer>{"Footer"}</footer>
+      <Footer />
     </div>
   );
 }
