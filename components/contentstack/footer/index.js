@@ -1,6 +1,7 @@
 // import Link from "next/link";
 import { Row, Col } from "react-bootstrap";
 import footerStyle from "./index.module.scss";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Footer({ socialLinks, logo }) {
   return (
@@ -10,6 +11,7 @@ export default function Footer({ socialLinks, logo }) {
           <Row className="text-center">
             <Col md={3}>
               <img src={logo} alt="contentstack footer logo" width="150" />
+              <FontAwesomeIcon icon={["fab", "github"]} />
             </Col>
             <Col md={9}>
               <Row className="text-center">

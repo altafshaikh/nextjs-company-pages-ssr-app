@@ -1,6 +1,7 @@
 import "../sass/app.scss";
 // import "../styles/globals.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+import "../fontawesome/fontawesome";
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;
