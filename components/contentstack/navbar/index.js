@@ -11,6 +11,9 @@ export default function contentstackNavbar({ logo }) {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav" className="px-2">
           <Nav className="ml-auto">
+            <Nav.Link href="/" className="text-white">
+              Home
+            </Nav.Link>
             <Nav.Link href="#Product" className="text-white">
               Product
             </Nav.Link>

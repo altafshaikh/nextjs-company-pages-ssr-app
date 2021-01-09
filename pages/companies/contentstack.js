@@ -20,7 +20,11 @@ export default function contentstack(props) {
   };
   return (
     <div>
-      <Layout title="Contentstack" Footer={Footer}>
+      <Layout
+        title="Contentstack"
+        Footer={Footer}
+        favicon={props.companyData.favicon}
+      >
         <header style={headerStyle}>
           <Navbar logo={props.companyData.companyLogowhite} />
           <Banner heroContent={props.companyData.heroContent} />
