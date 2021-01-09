@@ -11,7 +11,22 @@ export default function Footer({ socialLinks, logo }) {
           <Row className="text-center">
             <Col md={3}>
               <img src={logo} alt="contentstack footer logo" width="150" />
-              <FontAwesomeIcon icon={["fab", "github"]} />
+              <ul className="list-unstyled">
+                {Object.keys(socialLinks).map((key) => {
+                  return (
+                    <>
+                      <li className="list-inline-item">
+                        <a href={socialLinks[key]}>
+                          <FontAwesomeIcon
+                            icon={["fab", `${key}`]}
+                            className={footerStyle["socialLinks"]}
+                          />
+                        </a>
+                      </li>
+                    </>
+                  );
+                })}
+              </ul>
             </Col>
             <Col md={9}>
               <Row className="text-center">

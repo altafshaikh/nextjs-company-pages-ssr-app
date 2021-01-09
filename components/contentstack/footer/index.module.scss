@@ -15,5 +15,14 @@ a.footer-column-links {
   font-family: Inter, sans-serif;
 }
 
+.socialLinks {
+  width: 20px;
+  color: grey;
+  text-decoration: none;
+  &:hover {
+    opacity: 0.5;
+  }
+}
+
 @media (max-width: 425px) {
 }
