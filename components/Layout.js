@@ -5,6 +5,7 @@ export default function Layout({
   favicon = "../public/vercel.svg",
   title = "Home | Landing Page",
   Footer,
+  footerContent,
 }) {
   return (
     <div>
@@ -17,7 +18,7 @@ export default function Layout({
 
       {children}
 
-      <Footer />
+      <Footer {...footerContent} />
       <style jsx>
         {`
           @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");

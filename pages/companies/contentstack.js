@@ -24,6 +24,10 @@ export default function contentstack(props) {
         title="Contentstack | Home"
         Footer={Footer}
         favicon={props.companyData.favicon}
+        footerContent={{
+          socialLinks: props.companyData.socialLinks,
+          logo: props.companyData.companyLogoBlack,
+        }}
       >
         <header style={headerStyle}>
           <Navbar logo={props.companyData.companyLogowhite} />
