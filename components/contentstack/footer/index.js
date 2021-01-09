@@ -7,10 +7,13 @@ export default function Footer({ socialLinks, logo }) {
   return (
     <>
       <footer>
-        <div className="container">
+        <div
+          className="container"
+          style={{ paddingLeft: "0", paddingRight: "0" }}
+        >
           <Row className="text-center">
             <Col md={3}>
-              <img src={logo} alt="contentstack footer logo" width="150" />
+              <img src={logo} alt="contentstack footer logo" width="160" />
               <ul className="list-unstyled">
                 {Object.keys(socialLinks).map((key) => {
                   return (
@@ -30,7 +33,7 @@ export default function Footer({ socialLinks, logo }) {
             </Col>
             <Col md={9}>
               <Row className="text-center">
-                <Col md={3} className="d-flex flex-column text-left">
+                <Col md={3} className="d-flex flex-column">
                   <h2 className={footerStyle["footer-column-heading"]}>
                     Product
                   </h2>
@@ -56,7 +59,7 @@ export default function Footer({ socialLinks, logo }) {
                     Customer Success
                   </a>
                 </Col>
-                <Col md={3} className="d-flex flex-column text-left">
+                <Col md={3} className="d-flex flex-column">
                   <h2 className={footerStyle["footer-column-heading"]}>
                     Users
                   </h2>
@@ -73,7 +76,7 @@ export default function Footer({ socialLinks, logo }) {
                     System Status
                   </a>
                 </Col>
-                <Col md={3} className="d-flex flex-column text-left">
+                <Col md={3} className="d-flex flex-column">
                   <h2 className={footerStyle["footer-column-heading"]}>
                     Education
                   </h2>
@@ -90,7 +93,7 @@ export default function Footer({ socialLinks, logo }) {
                     Docs
                   </a>
                 </Col>
-                <Col md={3} className="d-flex flex-column text-left">
+                <Col md={3} className="d-flex flex-column">
                   <h2 className={footerStyle["footer-column-heading"]}>
                     Company
                   </h2>
