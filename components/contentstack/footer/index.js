@@ -8,7 +8,7 @@ export default function Footer({ socialLinks, logo }) {
     <>
       <footer>
         <div
-          className="container"
+          className="container mt-5"
           style={{ paddingLeft: "0", paddingRight: "0" }}
         >
           <Row className="text-center">

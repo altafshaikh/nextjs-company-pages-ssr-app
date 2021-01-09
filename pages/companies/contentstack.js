@@ -4,6 +4,7 @@ import axios from "axios";
 import Layout from "../../components/Layout";
 import Navbar from "../../components/contentstack/navbar";
 import Banner from "../../components/contentstack/banner";
+import Try from "../../components/contentstack/try";
 import Footer from "../../components/contentstack/footer";
 
 // constants
@@ -33,7 +34,7 @@ export default function contentstack(props) {
           <Navbar logo={props.companyData.companyLogowhite} />
           <Banner heroContent={props.companyData.heroContent} />
         </header>
-        <h1>Contentstack</h1>
+        <Try />
       </Layout>
       <style jsx>
         {`
