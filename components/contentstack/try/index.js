@@ -14,7 +14,6 @@ export default function Try() {
               backgroundSize: "cover",
               backgroundRepeat: "no-repeat",
               width: "100%",
-              height: "40vh",
             }}
           >
             <div className="container text-white d-flex justify-content-center">
@@ -25,7 +24,7 @@ export default function Try() {
                 >{`TRY IT TO BELIEVE IT`}</h1>
 
                 <Button
-                  className="px-5 my-5"
+                  className="ml-3 px-5 my-5"
                   variant="primary"
                   style={{
                     backgroundColor: "#eb5646",
@@ -38,7 +37,7 @@ export default function Try() {
                   Request A Demo
                 </Button>
                 <Button
-                  className="ml-5 px-5 my-5"
+                  className="ml-3 px-5 my-5"
                   variant="primary"
                   style={{
                     borderWidth: "2px",

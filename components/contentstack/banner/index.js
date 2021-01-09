@@ -20,6 +20,7 @@ export default function Banner({ heroContent }) {
               outline: "none",
               border: "none",
               letterSpacing: "1.1px",
+              fontWeight: "bold",
             }}
           >
             Try For Free

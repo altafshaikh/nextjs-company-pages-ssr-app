@@ -1,2 +1,6 @@
 @import "variables_mixins";
 @import "bootstrap";
+
+body {
+  overflow-x: hidden;
+}

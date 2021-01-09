@@ -30,12 +30,13 @@ export default function contentstackNavbar({ logo }) {
               Pricing
             </Nav.Link>
             <Button
-              className="px-3"
+              className="px-4 ml-3"
               variant="primary"
               style={{
                 backgroundColor: "#eb5646",
                 outline: "none",
                 border: "none",
+                letterSpacing: "1.1px",
               }}
             >
               Try For Free
