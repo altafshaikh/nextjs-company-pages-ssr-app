@@ -2,7 +2,7 @@ import axios from "axios";
 
 // components
 import Layout from "../../components/Layout";
-import contentstackNavbar from "../../components/contentstack/navbar";
+import Navbar from "../../components/contentstack/navbar";
 import Footer from "../../components/contentstack/footer";
 
 // constants
@@ -12,7 +12,10 @@ export default function contentstack(props) {
   //   console.log(props.companyData);
   return (
     <div>
-      <Layout title="Contentstack" Navbar={contentstackNavbar} Footer={Footer}>
+      <Layout title="Contentstack" Footer={Footer}>
+        <header>
+          <Navbar />
+        </header>
         <h1>Contentstack</h1>
       </Layout>
     </div>
