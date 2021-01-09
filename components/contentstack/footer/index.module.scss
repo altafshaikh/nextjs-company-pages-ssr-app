@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+h2.footer-column-heading {
+  font-size: 1em;
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+  margin: 0.5em 0 12.5px;
+}
+
+a.footer-column-links {
+  color: black;
+  display: block;
+  // text-decoration: none;
+  padding: 0.5em 0;
+  font-family: Inter, sans-serif;
+}
+
+@media (max-width: 425px) {
+}

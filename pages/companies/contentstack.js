@@ -35,6 +35,11 @@ export default function contentstack(props) {
         </header>
         <h1>Contentstack</h1>
       </Layout>
+      <style jsx>
+        {`
+          @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+        `}
+      </style>
     </div>
   );
 }

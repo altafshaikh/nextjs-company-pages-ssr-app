@@ -19,11 +19,6 @@ export default function Layout({
       {children}
 
       <Footer {...footerContent} />
-      <style jsx>
-        {`
-          @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
-        `}
-      </style>
     </div>
   );
 }
