@@ -21,7 +21,7 @@ export default function contentstack(props) {
   return (
     <div>
       <Layout
-        title="Contentstack"
+        title="Contentstack | Home"
         Footer={Footer}
         favicon={props.companyData.favicon}
       >
