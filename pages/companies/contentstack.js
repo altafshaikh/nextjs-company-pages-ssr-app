@@ -10,11 +10,18 @@ import { contentstackDataURI } from "../../constants/endpoints";
 
 export default function contentstack(props) {
   //   console.log(props.companyData);
+  const headerStyle = {
+    backgroundImage: `url(${props.companyData.bannerImages[0]})`,
+    backgroundPosition: "center",
+    backgroundSize: "cover",
+    backgroundRepeat: "no-repeat",
+    height: "100vh",
+  };
   return (
     <div>
       <Layout title="Contentstack" Footer={Footer}>
-        <header>
-          <Navbar />
+        <header style={headerStyle}>
+          <Navbar logo={props.companyData.companyLogowhite} />
         </header>
         <h1>Contentstack</h1>
       </Layout>
