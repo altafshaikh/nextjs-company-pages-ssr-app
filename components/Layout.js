@@ -6,6 +6,7 @@ export default function Layout({
   Navbar,
   Footer,
 }) {
+
   return (
     <div>
       <Head>
