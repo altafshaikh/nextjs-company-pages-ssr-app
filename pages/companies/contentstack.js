@@ -1,9 +1,15 @@
+import axios from "axios";
+
 // components
 import Layout from "../../components/Layout";
 import contentstackNavbar from "../../components/contentstack/navbar";
 import Footer from "../../components/contentstack/footer";
 
-export default function contentstack() {
+// constants
+import { contentstackDataURI } from "../../constants/endpoints";
+
+export default function contentstack(props) {
+  //   console.log(props.companyData);
   return (
     <div>
       <Layout title="Contentstack" Navbar={contentstackNavbar} Footer={Footer}>
@@ -12,3 +18,11 @@ export default function contentstack() {
     </div>
   );
 }
+
+export const getStaticProps = async (context) => {
+  let { data } = await axios(contentstackDataURI);
+
+  return {
+    props: { companyData: { ...data[0] } },
+  };
+};
