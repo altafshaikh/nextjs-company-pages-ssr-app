@@ -1,7 +1,5 @@
-// ensure all pages have Bootstrap CSS
-import "bootstrap/dist/css/bootstrap.min.css";
-
-import "../styles/globals.css";
+import "../sass/app.scss";
+// import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;
