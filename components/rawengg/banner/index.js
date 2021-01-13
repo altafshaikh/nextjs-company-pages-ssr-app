@@ -3,7 +3,7 @@ import { Button } from "react-bootstrap";
 // scss
 import bannerStyles from "./index.module.scss";
 
-export default function SurfboardBanner({ heroContent }) {
+export default function RawEnggBanner({ heroContent }) {
   return (
     <div style={{ height: "100vh" }} className="d-flex align-items-center">
       <div className="container text-dark d-flex justify-content-center">

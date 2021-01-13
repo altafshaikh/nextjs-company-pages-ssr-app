@@ -1,7 +1,7 @@
 import { Navbar, Nav, Button } from "react-bootstrap";
 import navStyles from "./index.module.scss";
 
-export default function SurfboardNavbar({ logo }) {
+export default function RawEnggNavbar({ logo }) {
   return (
     <>
       <Navbar
