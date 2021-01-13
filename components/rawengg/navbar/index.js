@@ -40,9 +40,8 @@ export default function RawEnggNavbar({ logo }) {
             </Nav.Link>
 
             <Button
-              className="px-4 ml-3"
               variant="primary"
-              className={navStyles["contact-btn"]}
+              className={["px-4 ml-3", navStyles["contact-btn"]].join(" ")}
             >
               Contact
             </Button>
