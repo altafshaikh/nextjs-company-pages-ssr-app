@@ -20,7 +20,7 @@ export default function surfboard(props) {
   return (
     <>
       <Layout
-        title="Surfboard Ventures| Home"
+        title="Surfboard Ventures | Home"
         Footer={Footer}
         favicon={props.companyData.favicon}
         footerContent={{
