@@ -11,33 +11,27 @@ export default function contentstackNavbar({ logo }) {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav" className="px-2">
           <Nav className="ml-auto">
-            <Nav.Link href="/" className="text-white">
+            <Nav.Link href="/" className={navStyles["nav-links"]}>
               Home
             </Nav.Link>
-            <Nav.Link href="#Product" className="text-white">
+            <Nav.Link href="#Product" className={navStyles["nav-links"]}>
               Product
             </Nav.Link>
-            <Nav.Link href="#Education" className="text-white">
+            <Nav.Link href="#Education" className={navStyles["nav-links"]}>
               Education
             </Nav.Link>
-            <Nav.Link href="#Partners" className="text-white">
+            <Nav.Link href="#Partners" className={navStyles["nav-links"]}>
               Partners
             </Nav.Link>
-            <Nav.Link href="#Company" className="text-white">
+            <Nav.Link href="#Company" className={navStyles["nav-links"]}>
               Company
             </Nav.Link>
-            <Nav.Link href="#Pricing" className="text-white">
+            <Nav.Link href="#Pricing" className={navStyles["nav-links"]}>
               Pricing
             </Nav.Link>
             <Button
-              className="px-4 ml-3"
+              className={["px-4 ml-3", navStyles["try-btn"]].join(" ")}
               variant="primary"
-              style={{
-                backgroundColor: "#eb5646",
-                outline: "none",
-                border: "none",
-                letterSpacing: "1.1px",
-              }}
             >
               Try For Free
             </Button>
