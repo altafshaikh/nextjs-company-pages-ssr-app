@@ -4,42 +4,47 @@ import navStyles from "./index.module.scss";
 export default function SurfboardNavbar({ logo }) {
   return (
     <>
-      <Navbar collapseOnSelect expand="lg" variant="dark" className="mx-5 pt-3">
+      <Navbar
+        collapseOnSelect
+        expand="lg"
+        variant="light"
+        className="mx-5 pt-3"
+      >
         <Navbar.Brand href="#contentstack">
           <img src={logo} alt="contentstack company logo" width="200" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav" className="px-2">
           <Nav className="ml-auto">
-            <Nav.Link href="/" className="text-white">
+            <Nav.Link href="/" className="text-dark">
               Home
             </Nav.Link>
-            <Nav.Link href="#Product" className="text-white">
-              Product
+            <Nav.Link href="#Portfolio" className="text-dark">
+              Portfolio
             </Nav.Link>
-            <Nav.Link href="#Education" className="text-white">
-              Education
+            <Nav.Link href="#Academy" className="text-dark">
+              Academy
             </Nav.Link>
-            <Nav.Link href="#Partners" className="text-white">
-              Partners
+            <Nav.Link href="#Events" className="text-dark">
+              Events
             </Nav.Link>
-            <Nav.Link href="#Company" className="text-white">
-              Company
+            <Nav.Link href="#Gallery" className="text-dark">
+              Gallery
             </Nav.Link>
-            <Nav.Link href="#Pricing" className="text-white">
-              Pricing
-            </Nav.Link>
+
             <Button
               className="px-4 ml-3"
               variant="primary"
               style={{
-                backgroundColor: "#eb5646",
+                backgroundColor: "#28C8DC",
                 outline: "none",
                 border: "none",
                 letterSpacing: "1.1px",
+                borderRadius: "25px",
+                minWidth: "150px",
               }}
             >
-              Try For Free
+              Contact Us
             </Button>
           </Nav>
         </Navbar.Collapse>

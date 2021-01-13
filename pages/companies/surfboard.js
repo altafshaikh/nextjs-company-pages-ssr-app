@@ -2,9 +2,9 @@ import axios from "axios";
 
 // components
 import Layout from "../../components/Layout";
-import Footer from "../../components/Footer";
 import Navbar from "../../components/surfboard/navbar";
 import Banner from "../../components/surfboard/banner";
+import Footer from "../../components/surfboard/footer";
 
 // constants
 import { surfboardDataURI } from "../../constants/endpoints";
@@ -33,7 +33,6 @@ export default function surfboard(props) {
           <Banner heroContent={props.companyData.heroContent} />
         </header>
       </Layout>
-      <h1>Surfboard</h1>
     </div>
   );
 }
