@@ -1,10 +1,18 @@
 import { Row } from "react-bootstrap";
 import { Button } from "react-bootstrap";
 
+// style
+import tryStyles from "./index.module.scss";
+
 export default function Try() {
   return (
     <>
-      <Row>
+      <Row
+        style={{
+          marginRight: "-15px !important",
+          marginLeft: "-15px !important",
+        }}
+      >
         <div className="container" style={{ maxWidth: "100%" }}>
           <div
             style={{
@@ -24,34 +32,16 @@ export default function Try() {
                 >{`TRY IT TO BELIEVE IT`}</h1>
 
                 <Button
-                  className="ml-3 px-5 my-5"
+                  className={["ml-3 px-5 my-5", tryStyles["request-btn"]].join(
+                    " "
+                  )}
                   variant="primary"
-                  style={{
-                    backgroundColor: "#eb5646",
-                    outline: "none",
-                    border: "none",
-                    letterSpacing: "1.1px",
-                    fontWeight: "bold",
-                  }}
                 >
                   Request A Demo
                 </Button>
                 <Button
-                  className="ml-3 px-5 my-5"
+                  className={["ml-3 px-5 my-5", tryStyles["try-btn"]].join(" ")}
                   variant="primary"
-                  style={{
-                    borderWidth: "2px",
-                    borderStyle: "solid",
-                    borderColor: "#eb5646",
-                    backgroundColor: "transparent",
-                    outline: "none",
-                    letterSpacing: "1.1px",
-                    fontWeight: "bold",
-                    "&:hover": {
-                      backgroundColor: "#eb5646 !important",
-                      color: "black",
-                    },
-                  }}
                 >
                   Try For Free
                 </Button>
