@@ -16,33 +16,25 @@ export default function SurfboardNavbar({ logo }) {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav" className="px-2">
           <Nav className="ml-auto">
-            <Nav.Link href="/" className="text-dark">
+            <Nav.Link href="/" className={navStyles["nav-links"]}>
               Home
             </Nav.Link>
-            <Nav.Link href="#Portfolio" className="text-dark">
+            <Nav.Link href="#Portfolio" className={navStyles["nav-links"]}>
               Portfolio
             </Nav.Link>
-            <Nav.Link href="#Academy" className="text-dark">
+            <Nav.Link href="#Academy" className={navStyles["nav-links"]}>
               Academy
             </Nav.Link>
-            <Nav.Link href="#Events" className="text-dark">
+            <Nav.Link href="#Events" className={navStyles["nav-links"]}>
               Events
             </Nav.Link>
-            <Nav.Link href="#Gallery" className="text-dark">
+            <Nav.Link href="#Gallery" className={navStyles["nav-links"]}>
               Gallery
             </Nav.Link>
 
             <Button
-              className="px-4 ml-3"
               variant="primary"
-              style={{
-                backgroundColor: "#28C8DC",
-                outline: "none",
-                border: "none",
-                letterSpacing: "1.1px",
-                borderRadius: "25px",
-                minWidth: "150px",
-              }}
+              className={["px-4 ml-3", navStyles["contact-btn"]].join(" ")}
             >
               Contact Us
             </Button>

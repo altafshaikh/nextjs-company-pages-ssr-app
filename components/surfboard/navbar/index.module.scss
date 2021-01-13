@@ -1,0 +1,19 @@
+.nav-links {
+  color: rgb(0, 0, 0) !important;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  &:hover {
+    border-bottom: 1px solid rgb(0, 0, 0);
+  }
+}
+
+.contact-btn {
+  background-color: #28c8dc;
+  border-color: #28c8dc;
+  letter-spacing: 1.1px;
+  border-radius: 25px;
+  min-width: 150px;
+  &:hover {
+    background-color: #03afc5;
+    border-color: #03afc5;
+  }
+}
