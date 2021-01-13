@@ -20,16 +20,8 @@ export default function Footer({ socialLinks, logo }) {
               Ready to get started on your next project?
             </h2>
             <Button
-              className="px-4 mt-5"
+              className={["px-4 mt-5", footerStyle["touch-btn"]].join(" ")}
               variant="primary"
-              style={{
-                backgroundColor: "#0069d9",
-                outline: "none",
-                borderColor: "#0069d9",
-                letterSpacing: "1.1px",
-                borderRadius: "25px",
-                minWidth: "150px",
-              }}
             >
               GET IN TOUCH
             </Button>
@@ -55,12 +47,12 @@ export default function Footer({ socialLinks, logo }) {
             </ul>
             <ul className="list-unstyled">
               <li className="list-inline-item">
-                <a className={footerStyle["socialLinks"]} href="#">
+                <a className={footerStyle["footer-copyright"]} href="#">
                   Privacy
                 </a>
               </li>
               <li className="list-inline-item">
-                <a className={footerStyle["socialLinks"]} href="#">
+                <a className={footerStyle["footer-copyright"]} href="#">
                   Backend Terms of Use
                 </a>
               </li>
