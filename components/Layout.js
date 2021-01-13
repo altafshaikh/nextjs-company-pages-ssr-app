@@ -8,7 +8,7 @@ export default function Layout({
   footerContent,
 }) {
   return (
-    <div>
+    <>
       <Head>
         <title>{title}</title>
         <meta charSet="utf-8" />
@@ -19,6 +19,6 @@ export default function Layout({
       {children}
 
       <Footer {...footerContent} />
-    </div>
+    </>
   );
 }

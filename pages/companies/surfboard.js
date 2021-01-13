@@ -18,7 +18,7 @@ export default function surfboard(props) {
     width: "100%",
   };
   return (
-    <div>
+    <>
       <Layout
         title="Surfboard | Home"
         Footer={Footer}
@@ -33,7 +33,7 @@ export default function surfboard(props) {
           <Banner heroContent={props.companyData.heroContent} />
         </header>
       </Layout>
-    </div>
+    </>
   );
 }
 

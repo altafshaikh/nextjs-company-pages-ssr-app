@@ -59,10 +59,10 @@ export default function Footer({ socialLinks, logo }) {
                 </Col>
                 <Col md={3} className="d-flex flex-column">
                   <ul className="list-unstyled">
-                    {Object.keys(socialLinks).map((key) => {
+                    {Object.keys(socialLinks).map((key, index) => {
                       return (
                         <>
-                          <li className="list-inline-item">
+                          <li className="list-inline-item" key={index}>
                             <a href={socialLinks[key]}>
                               <FontAwesomeIcon
                                 icon={["fab", `${key}`]}
