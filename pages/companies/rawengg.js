@@ -20,7 +20,7 @@ export default function rawengg(props) {
   return (
     <>
       <Layout
-        title="Raw Engineering| Home"
+        title="Raw Engineering | Home"
         Footer={Footer}
         favicon={props.companyData.favicon}
         footerContent={{
