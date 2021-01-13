@@ -14,13 +14,21 @@ p.hero-content {
 }
 
 @media (max-width: 425px) {
-    h1.hero-heading {
-        font-size: 40px;
-        line-height: 55px;
-      }
-      
-      p.hero-content {
-        font-size: 16px;
-        margin-top: 10px;
-      }
+  h1.hero-heading {
+    font-size: 40px;
+    line-height: 55px;
+  }
+
+  p.hero-content {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .bannerImage {
+    width: 100%;
+    object-fit: cover;
+    max-height: 280px;
+  }
 }

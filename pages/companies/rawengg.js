@@ -35,7 +35,7 @@ export default function rawengg(props) {
       </Layout>
       <style jsx>
         {`
-          @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+          @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
         `}
       </style>
     </>
