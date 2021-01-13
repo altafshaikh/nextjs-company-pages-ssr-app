@@ -20,7 +20,7 @@ export default function rawengg(props) {
   return (
     <>
       <Layout
-        title="Raw Engg| Home"
+        title="Raw Engineering| Home"
         Footer={Footer}
         favicon={props.companyData.favicon}
         footerContent={{
@@ -33,6 +33,11 @@ export default function rawengg(props) {
           <Banner heroContent={props.companyData.heroContent} />
         </header>
       </Layout>
+      <style jsx>
+        {`
+          @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+        `}
+      </style>
     </>
   );
 }
