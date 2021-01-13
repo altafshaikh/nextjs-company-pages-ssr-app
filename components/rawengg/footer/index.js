@@ -1,5 +1,5 @@
 // import Link from "next/link";
-import { Row, Col } from "react-bootstrap";
+import { Row, Col, Button } from "react-bootstrap";
 import footerStyle from "./index.module.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -11,82 +11,70 @@ export default function Footer({ socialLinks, logo }) {
           borderTop: "#DFE1E5",
           borderTopStyle: "solid",
           borderTopWidth: "1px",
+          background: "black",
         }}
       >
-        <div
-          className="container mt-5"
-          style={{
-            paddingLeft: "0",
-            paddingRight: "0",
-          }}
-        >
-          <Row className="text-center">
-            <Col md={3}>
-              <img src={logo} alt="contentstack footer logo" width="160" />
-            </Col>
-            <Col md={9}>
-              <Row className="text-center">
-                <Col md={3} className="d-flex flex-column">
-                  <a className={footerStyle["footer-column-links"]} href="/#">
-                    Portfolio
-                  </a>
-                  <a className={footerStyle["footer-column-links"]} href="/#">
-                    Academy
-                  </a>
-                  <a className={footerStyle["footer-column-links"]} href="/#">
-                    Events
-                  </a>
-                </Col>
-                <Col md={3} className="d-flex flex-column">
-                  <a className={footerStyle["footer-column-links"]} href="/#">
-                    Gallery
-                  </a>
-                  <a className={footerStyle["footer-column-links"]} href="/#">
-                    e-certificates
-                  </a>
-                  <a className={footerStyle["footer-column-links"]} href="/#">
-                    Contact Us
-                  </a>
-                </Col>
-                <Col md={3} className="d-flex flex-column">
-                  <a
-                    className={footerStyle["footer-column-links"]}
-                    href="mailto:info@surfboardventures.com?subject=Enquiry"
-                    target="_blank"
-                  >
-                    info@surfboardventures.com
-                  </a>
-                </Col>
-                <Col md={3} className="d-flex flex-column">
-                  <ul className="list-unstyled">
-                    {Object.keys(socialLinks).map((key, index) => {
-                      return (
-                        <>
-                          <li className="list-inline-item" key={index}>
-                            <a href={socialLinks[key]}>
-                              <FontAwesomeIcon
-                                icon={["fab", `${key}`]}
-                                className={footerStyle["socialLinks"]}
-                              />
-                            </a>
-                          </li>
-                        </>
-                      );
-                    })}
-                  </ul>
-                </Col>
-              </Row>
-            </Col>
-          </Row>
-          <hr className="mt-5" />
-          <Row>
-            <Col>
-              <p className={footerStyle["footer-copyright"]}>
-                Copyright © 2020 Surfboard Ventures. All Rights Reserved.
-              </p>
-            </Col>
-          </Row>
-        </div>
+        <Row>
+          <div className="container text-center p-5">
+            <h2 className="text-white">
+              Ready to get started on your next project?
+            </h2>
+            <Button
+              className="px-4 mt-5"
+              variant="primary"
+              style={{
+                backgroundColor: "#0069d9",
+                outline: "none",
+                borderColor: "#0069d9",
+                letterSpacing: "1.1px",
+                borderRadius: "25px",
+                minWidth: "150px",
+              }}
+            >
+              GET IN TOUCH
+            </Button>
+          </div>
+        </Row>
+        <Row className={footerStyle["row2-container"]}>
+          <div className="container pb-5">
+            <ul className={footerStyle["socialLink-container"]}>
+              {Object.keys(socialLinks).map((key, index) => {
+                return (
+                  <>
+                    <li className="list-inline-item" key={index}>
+                      <a href={socialLinks[key]}>
+                        <FontAwesomeIcon
+                          icon={["fab", `${key}`]}
+                          className={footerStyle["socialLinks"]}
+                        />
+                      </a>
+                    </li>
+                  </>
+                );
+              })}
+            </ul>
+            <ul className="list-unstyled">
+              <li className="list-inline-item">
+                <a className={footerStyle["socialLinks"]} href="#">
+                  Privacy
+                </a>
+              </li>
+              <li className="list-inline-item">
+                <a className={footerStyle["socialLinks"]} href="#">
+                  Backend Terms of Use
+                </a>
+              </li>
+            </ul>
+            <p className="text-white">
+              Copyright © 2021 Raw Engineering LLC. All Rights Reserved.
+            </p>
+            <img
+              src="https://www.raweng.com/v3/assets/bltaacb6b0c9b693c2d/blt67d1684f23bec105/5e31575101e4f445b22f4bde/soc_logo.png?width=100"
+              width="75"
+              height="75"
+            />
+          </div>
+        </Row>
       </footer>
     </>
   );
