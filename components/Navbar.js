@@ -8,12 +8,15 @@ export default function Navbar() {
           <a>Home</a>
         </Link>{" "}
         |
-        <Link href="/about">
-          <a>About</a>
+        <Link href="/companies/contentstack">
+          <a>CS</a>
         </Link>{" "}
         |
-        <Link href="/contact">
-          <a>Contact</a>
+        <Link href="/companies/rawengg">
+          <a>Raw Engineering</a>
+        </Link>
+        <Link href="/companies/surfboard">
+          <a>Surfboard</a>
         </Link>
       </nav>
     </>

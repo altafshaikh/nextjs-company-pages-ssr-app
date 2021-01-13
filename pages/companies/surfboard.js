@@ -2,14 +2,14 @@ import axios from "axios";
 
 // components
 import Layout from "../../components/Layout";
-import Footer from "../../components/Footer/";
+import Footer from "../../components/Footer";
 import Navbar from "../../components/surfboard/navbar";
 import Banner from "../../components/surfboard/banner";
 
 // constants
 import { surfboardDataURI } from "../../constants/endpoints";
 
-export default function surfboard() {
+export default function surfboard(props) {
   const headerStyle = {
     backgroundImage: `url(${props.companyData.bannerImage})`,
     backgroundPosition: "center",
@@ -20,7 +20,7 @@ export default function surfboard() {
   return (
     <div>
       <Layout
-        title="Contentstack | Home"
+        title="Surfboard | Home"
         Footer={Footer}
         favicon={props.companyData.favicon}
         footerContent={{
