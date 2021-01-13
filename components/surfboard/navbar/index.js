@@ -10,8 +10,8 @@ export default function SurfboardNavbar({ logo }) {
         variant="light"
         className="mx-5 pt-3"
       >
-        <Navbar.Brand href="#contentstack">
-          <img src={logo} alt="contentstack company logo" width="200" />
+        <Navbar.Brand href="#surfboard">
+          <img src={logo} alt="surfboard company logo" width="200" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav" className="px-2">

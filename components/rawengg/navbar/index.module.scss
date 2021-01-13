@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+.nav-links {
+  font-family: Montserrat, sans-serif;
+  color: white !important;
+  border-bottom: 1px solid black;
+  &:hover {
+    border-bottom: 1px solid rgb(255, 255, 255);
+  }
+}
+
+.contact-btn {
+  background-color: #0069d9;
+  border-color: #0069d9;
+  letter-spacing: 1.1px;
+  border-radius: 25px;
+  margin-left: 10px;
+  min-width: 150px;
+  font-family: Montserrat, sans-serif;
+  &:hover {
+    background-color: #0054ae;
+    border-color: #0054ae;
+  }
+}
