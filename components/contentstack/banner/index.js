@@ -13,24 +13,13 @@ export default function Banner({ heroContent }) {
           </h1>
           <p className={bannerStyles["hero-content"]}>{heroContent.content}</p>
           <Button
-            className="px-5 my-5"
+            className={["px-5 my-5", bannerStyles["try-btn"]].join(" ")}
             variant="primary"
-            style={{
-              backgroundColor: "#eb5646",
-              outline: "none",
-              border: "none",
-              letterSpacing: "1.1px",
-              fontWeight: "bold",
-            }}
           >
             Try For Free
           </Button>
-          <p
-            style={{
-              color: "#eb5646",
-            }}
-          >
-            Request A Demo
+          <p className={bannerStyles["request-text"]}>
+            <a href="#">Request A Demo</a>
           </p>
         </div>
       </div>
