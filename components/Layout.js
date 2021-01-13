@@ -2,7 +2,7 @@ import Head from "next/head";
 
 export default function Layout({
   children,
-  favicon = "../public/vercel.svg",
+  favicon = "vercel.svg",
   title = "Home | Landing Page",
   Footer,
   footerContent,
