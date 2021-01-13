@@ -1,7 +1,7 @@
 import { Navbar, Nav, Button } from "react-bootstrap";
 import navStyles from "./index.module.scss";
 
-export default function contentstackNavbar({ logo }) {
+export default function SurfboardNavbar({ logo }) {
   return (
     <>
       <Navbar collapseOnSelect expand="lg" variant="dark" className="mx-5 pt-3">

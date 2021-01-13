@@ -3,6 +3,8 @@ import axios from "axios";
 // components
 import Layout from "../../components/Layout";
 import Footer from "../../components/Footer/";
+import Navbar from "../../components/surfboard/navbar";
+import Banner from "../../components/surfboard/banner";
 
 // constants
 import { surfboardDataURI } from "../../constants/endpoints";
