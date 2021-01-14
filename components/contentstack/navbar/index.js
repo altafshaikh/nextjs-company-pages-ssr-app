@@ -12,7 +12,7 @@ export default function contentstackNavbar({ logo }) {
             src={logo}
             alt="contentstack company logo"
             width={200}
-            height={40}
+            height={35}
           />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

@@ -2,6 +2,7 @@
 import { Row, Col } from "react-bootstrap";
 import footerStyle from "./index.module.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Image from "next/image";
 
 export default function Footer({ socialLinks, logo }) {
   return (
@@ -13,7 +14,12 @@ export default function Footer({ socialLinks, logo }) {
         >
           <Row className="text-center">
             <Col md={3}>
-              <img src={logo} alt="contentstack footer logo" width="160" />
+              <Image
+                src={logo}
+                alt="contentstack footer logo"
+                width={160}
+                height={30}
+              />
               <ul className="list-unstyled">
                 {Object.keys(socialLinks).map((key) => {
                   return (
