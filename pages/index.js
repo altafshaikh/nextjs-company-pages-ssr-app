@@ -21,10 +21,10 @@ export default function Home(props) {
         <div style={{ height: "100vh" }} className="d-flex align-items-center">
           <div className="container text-white d-flex justify-content-center">
             <div className="col-sm text-center d-flex-column w-100">
-              {props.landingData.companies.map((company) => {
+              {props.landingData.companies.map((company, key) => {
                 return (
                   <>
-                    <Link href={company.url}>
+                    <Link href={company.url} key={key}>
                       <img
                         className={
                           company.companyName === "contentstack"

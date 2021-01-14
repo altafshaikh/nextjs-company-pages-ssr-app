@@ -12,8 +12,8 @@ export default function Try() {
           className="container"
           style={{
             maxWidth: "100%",
-            marginRight: "-15px !important",
-            marginLeft: "-15px !important",
+            paddingRight: "0x !important",
+            paddingLeft: "0px !important",
           }}
         >
           <div
