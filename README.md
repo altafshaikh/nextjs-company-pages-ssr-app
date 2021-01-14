@@ -19,6 +19,7 @@ The application renders three pages for the following companies
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
+To Download this project and run locally
 
 First, clone the repository into your local machine:
 ```
@@ -39,11 +40,16 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## To See All Statically Pre-Render Pages on Server
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- Download the Project as mentioned in Getting Started Section
+- once all dependencies are installed, run below command to create a build
+```
+npm run build
+```
+- navigate to `.nextjs > server > pages > companies` folder to see Raw Enginnering, Contentstack and Surfboard pages
+- navigate to `.nextjs > server > pages ` folder to see index page (Landing Page)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
 ## Learn More
 
