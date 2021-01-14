@@ -1,5 +1,6 @@
-import Head from "next/head";
 import axios from "axios";
+import Head from "next/head";
+import Link from "next/link";
 
 // data
 import { homeDataURI } from "../constants/endpoints";
@@ -23,7 +24,7 @@ export default function Home(props) {
               {props.landingData.companies.map((company) => {
                 return (
                   <>
-                    <a href={company.url}>
+                    <Link href={company.url}>
                       <img
                         className={
                           company.companyName === "contentstack"
@@ -34,7 +35,7 @@ export default function Home(props) {
                         width="70"
                         height="70"
                       />
-                    </a>
+                    </Link>
                   </>
                 );
               })}
