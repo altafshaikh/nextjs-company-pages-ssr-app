@@ -1,6 +1,7 @@
 import { Navbar, Nav, Button } from "react-bootstrap";
 import navStyles from "./index.module.scss";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function SurfboardNavbar({ logo }) {
   return (
@@ -12,7 +13,12 @@ export default function SurfboardNavbar({ logo }) {
         className="mx-5 pt-3"
       >
         <Navbar.Brand href="#surfboard">
-          <img src={logo} alt="surfboard company logo" width="200" />
+          <Image
+            src={logo}
+            alt="surfboard company logo"
+            width={200}
+            height={40}
+          />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav" className="px-2">

@@ -2,6 +2,7 @@
 import { Row, Col } from "react-bootstrap";
 import footerStyle from "./index.module.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Image from "next/image";
 
 export default function Footer({ socialLinks, logo }) {
   return (
@@ -22,29 +23,58 @@ export default function Footer({ socialLinks, logo }) {
         >
           <Row className="text-center">
             <Col md={3}>
-              <img src={logo} alt="contentstack footer logo" width="160" />
+              <Image
+                src={logo}
+                alt="contentstack footer logo"
+                width={160}
+                height={40}
+              />
             </Col>
             <Col md={9}>
               <Row className="text-center">
                 <Col md={3} className="d-flex flex-column">
-                  <a className={footerStyle["footer-column-links"]} href="/#">
+                  <a
+                    className={footerStyle["footer-column-links"]}
+                    href="/#"
+                    key={1}
+                  >
                     Portfolio
                   </a>
-                  <a className={footerStyle["footer-column-links"]} href="/#">
+                  <a
+                    className={footerStyle["footer-column-links"]}
+                    href="/#"
+                    key={2}
+                  >
                     Academy
                   </a>
-                  <a className={footerStyle["footer-column-links"]} href="/#">
+                  <a
+                    className={footerStyle["footer-column-links"]}
+                    href="/#"
+                    key={3}
+                  >
                     Events
                   </a>
                 </Col>
                 <Col md={3} className="d-flex flex-column">
-                  <a className={footerStyle["footer-column-links"]} href="/#">
+                  <a
+                    className={footerStyle["footer-column-links"]}
+                    href="/#"
+                    key={4}
+                  >
                     Gallery
                   </a>
-                  <a className={footerStyle["footer-column-links"]} href="/#">
+                  <a
+                    className={footerStyle["footer-column-links"]}
+                    href="/#"
+                    key={5}
+                  >
                     e-certificates
                   </a>
-                  <a className={footerStyle["footer-column-links"]} href="/#">
+                  <a
+                    className={footerStyle["footer-column-links"]}
+                    href="/#"
+                    key={6}
+                  >
                     Contact Us
                   </a>
                 </Col>

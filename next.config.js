@@ -5,6 +5,7 @@ module.exports = (phase, { defaultConfig }) => {
         "images.contentstack.io",
         "www.contentstack.com",
         "www.raweng.com",
+        "www.surfboardventures.com",
       ],
     },
   };
