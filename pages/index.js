@@ -29,7 +29,7 @@ export default function Home(props) {
                         className={
                           company.companyName === "contentstack"
                             ? styles["image-style"]
-                            : ""
+                            : styles["link-style"]
                         }
                         src={company.logo}
                         width="70"

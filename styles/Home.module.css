@@ -2,6 +2,11 @@
   margin: 30px 40px;
   padding-bottom: 10px;
   border-bottom: 3px solid white;
+  cursor: pointer;
+}
+
+.link-style {
+  cursor: pointer;
 }
 
 @media (max-width: 570px) {
