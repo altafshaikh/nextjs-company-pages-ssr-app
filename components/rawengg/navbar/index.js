@@ -1,5 +1,6 @@
 import { Navbar, Nav, Button } from "react-bootstrap";
 import navStyles from "./index.module.scss";
+import Link from "next/link";
 
 export default function RawEnggNavbar({ logo }) {
   return (
@@ -20,9 +21,11 @@ export default function RawEnggNavbar({ logo }) {
             className={["ml-auto px-5"].join(" ")}
             style={{ fontSize: "12px" }}
           >
-            <Nav.Link href="/" className={navStyles["nav-links"]}>
-              HOME
-            </Nav.Link>
+            <Link href="/">
+              <a className={["nav-link", navStyles["nav-links"]].join(" ")}>
+                Home
+              </a>
+            </Link>
             <Nav.Link href="#what-we-do" className={navStyles["nav-links"]}>
               WHAT WE DO
             </Nav.Link>
