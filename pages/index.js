@@ -1,9 +1,13 @@
 import Head from "next/head";
+import axios from "axios";
+
+// data
+import { homeDataURI } from "../constants/endpoints";
 
 // styles
 import styles from "../styles/Home.module.css";
 
-export default function Home() {
+export default function Home(props) {
   return (
     <>
       <Head>
@@ -49,7 +53,7 @@ export default function Home() {
                 rgba(0, 0, 0, 0.3),
                 rgba(0, 0, 0, 0.3)
               ),
-              url(https://image.freepik.com/free-photo/shot-sun-eye-metropolis-urban_1112-964.jpg);
+              url(${props.landingData.backgroundImage});
             background-position: center;
             background-size: cover;
             background-repeat: no-repeat;
@@ -61,3 +65,11 @@ export default function Home() {
     </>
   );
 }
+
+export const getStaticProps = async (context) => {
+  let { data } = await axios(homeDataURI);
+
+  return {
+    props: { landingData: { ...data[0] } },
+  };
+};
