@@ -2,6 +2,7 @@
 import { Row, Col, Button } from "react-bootstrap";
 import footerStyle from "./index.module.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Image from "next/image";
 
 export default function Footer({ socialLinks, logo }) {
   return (
@@ -60,7 +61,7 @@ export default function Footer({ socialLinks, logo }) {
             <p className="text-white">
               Copyright © 2021 Raw Engineering LLC. All Rights Reserved.
             </p>
-            <img
+            <Image
               src="https://www.raweng.com/v3/assets/bltaacb6b0c9b693c2d/blt67d1684f23bec105/5e31575101e4f445b22f4bde/soc_logo.png?width=100"
               width="75"
               height="75"

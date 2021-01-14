@@ -1,6 +1,7 @@
 import { Navbar, Nav, Button } from "react-bootstrap";
 import navStyles from "./index.module.scss";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function RawEnggNavbar({ logo }) {
   return (
@@ -13,7 +14,12 @@ export default function RawEnggNavbar({ logo }) {
         style={{ backgroundColor: "black" }}
       >
         <Navbar.Brand href="#rawengg" className="pl-5">
-          <img src={logo} alt="rawengg company logo" width="180" />
+          <Image
+            src={logo}
+            alt="rawengg company logo"
+            width={180}
+            height={50}
+          />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav" className="px-2">
