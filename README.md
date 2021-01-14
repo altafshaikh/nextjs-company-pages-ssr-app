@@ -2,6 +2,14 @@
 
 A Server Side Pre-Rendered Company Website build using NextJs
 
+## Features
+
+- all pages are server side rendered
+- app is fetching data from a JSON server hosted on Github [here](https://github.com/ialtafshaikh/static-files/tree/master/json)
+- bootsrap is used to layout and design the pages and components
+- app make use of sass and css
+- nextjs app is hosted on **Vercel**
+
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
