@@ -1,5 +1,6 @@
 import { Navbar, Nav, Button } from "react-bootstrap";
 import navStyles from "./index.module.scss";
+import Link from "next/link";
 
 export default function SurfboardNavbar({ logo }) {
   return (
@@ -16,9 +17,11 @@ export default function SurfboardNavbar({ logo }) {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav" className="px-2">
           <Nav className="ml-auto">
-            <Nav.Link href="/" className={navStyles["nav-links"]}>
-              Home
-            </Nav.Link>
+            <Link href="/">
+              <a className={["nav-link", navStyles["nav-links"]].join(" ")}>
+                Home
+              </a>
+            </Link>
             <Nav.Link href="#Portfolio" className={navStyles["nav-links"]}>
               Portfolio
             </Nav.Link>
