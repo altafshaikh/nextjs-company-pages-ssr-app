@@ -15,26 +15,28 @@ export default function Home(props) {
         <title>Landing Page | Home</title>
         <meta charSet="utf-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <link rel="icon" type="image/png" sizes="32x32" href="vercel.svg" />
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon.ico" />
       </Head>
       <main>
         <div style={{ height: "100vh" }} className="d-flex align-items-center">
           <div className="container text-white d-flex justify-content-center">
             <div className="col-sm text-center d-flex-column w-100">
-              {props.landingData.companies.map((company, key) => {
+              {props.landingData.companies.map((company, index) => {
                 return (
                   <>
-                    <Link href={company.url} key={key}>
-                      <img
-                        className={
-                          company.companyName === "contentstack"
-                            ? styles["image-style"]
-                            : styles["link-style"]
-                        }
-                        src={company.logo}
-                        width="70"
-                        height="70"
-                      />
+                    <Link href={company.url}>
+                      <a key={index}>
+                        <img
+                          className={
+                            company.companyName === "contentstack"
+                              ? styles["image-style"]
+                              : styles["link-style"]
+                          }
+                          src={company.logo}
+                          width="70"
+                          height="70"
+                        />
+                      </a>
                     </Link>
                   </>
                 );
