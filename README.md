@@ -3,6 +3,11 @@
 A Server Side Pre-Rendered Company Website build using NextJs
 
 ## Features
+The application renders three pages for the following companies
+
+1. Raw Engineering
+2. Contentstack
+3. Surfboard Ventures
 
 - all pages are server side rendered
 - app is fetching data from a JSON server hosted on Github [here](https://github.com/ialtafshaikh/static-files/tree/master/json)
