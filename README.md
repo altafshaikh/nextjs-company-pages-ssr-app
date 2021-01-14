@@ -15,7 +15,16 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+First, clone the repository into your local machine:
+```
+git clone https://github.com/ialtafshaikh/nextjs-company-ssr.git
+```
+Secondly, install all the dependencies
+```
+npm i
+```
+
+then, run the development server:
 
 ```bash
 npm run dev
