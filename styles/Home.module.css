@@ -1,0 +1,17 @@
+.image-style {
+  margin: 30px 40px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid white;
+}
+
+@media (max-width: 570px) {
+  .image-style {
+    margin: 30px 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  .image-style {
+    border-bottom: 3px solid transparent;
+  }
+}
