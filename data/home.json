@@ -1,17 +1,22 @@
 [
   {
-    "contentstack": {
-      "logo": "https://www.contentstack.com/favicon.ico",
-      "url": "/companies/contentstack"
-    },
-    "rawEngg": {
-      "logo": "https://www.raweng.com/icons/icon-144x144.png",
-      "url": "/companies/rawengg"
-    },
-    "surfboard": {
-      "logo": "https://www.surfboardventures.com/favicon.ico",
-      "url": "/companies/surfboard"
-    },
+    "companies": [
+      {
+        "companyName": "contentstack",
+        "logo": "https://www.contentstack.com/favicon.ico",
+        "url": "/companies/contentstack"
+      },
+      {
+        "companyName": "rawEngg",
+        "logo": "https://www.raweng.com/icons/icon-144x144.png",
+        "url": "/companies/rawengg"
+      },
+      {
+        "companyName": "surfboard",
+        "logo": "https://www.surfboardventures.com/favicon.ico",
+        "url": "/companies/surfboard"
+      }
+    ],
     "backgroundImage": "https://image.freepik.com/free-photo/shot-sun-eye-metropolis-urban_1112-964.jpg"
   }
 ]

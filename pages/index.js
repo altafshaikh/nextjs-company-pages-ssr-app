@@ -20,28 +20,24 @@ export default function Home(props) {
         <div style={{ height: "100vh" }} className="d-flex align-items-center">
           <div className="container text-white d-flex justify-content-center">
             <div className="col-sm text-center d-flex-column w-100">
-              <a href="/companies/surfboard">
-                <img
-                  src="https://www.surfboardventures.com/favicon.ico"
-                  width="70"
-                  height="70"
-                />
-              </a>
-              <a href="/companies/contentstack">
-                {" "}
-                <img
-                  className={styles["image-style"]}
-                  src="https://www.contentstack.com/favicon.ico"
-                />
-              </a>
-              <a href="/companies/rawengg">
-                <img
-                  className=""
-                  src="https://www.raweng.com/icons/icon-144x144.png"
-                  width="70"
-                  height="70"
-                />
-              </a>
+              {props.landingData.companies.map((company) => {
+                return (
+                  <>
+                    <a href={company.url}>
+                      <img
+                        className={
+                          company.companyName === "contentstack"
+                            ? styles["image-style"]
+                            : ""
+                        }
+                        src={company.logo}
+                        width="70"
+                        height="70"
+                      />
+                    </a>
+                  </>
+                );
+              })}
             </div>
           </div>
         </div>
