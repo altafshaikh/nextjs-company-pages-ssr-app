@@ -9,7 +9,9 @@ body {
 //   border: 1px solid red;
 // }
 
-.row {
-  margin-right: 0px !important;
-  margin-left: 0px !important;
+@media (max-width: 770px) {
+  .row {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+  }
 }

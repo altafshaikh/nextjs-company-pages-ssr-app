@@ -7,13 +7,15 @@ import tryStyles from "./index.module.scss";
 export default function Try() {
   return (
     <>
-      <Row
-        style={{
-          marginRight: "-15px !important",
-          marginLeft: "-15px !important",
-        }}
-      >
-        <div className="container" style={{ maxWidth: "100%" }}>
+      <Row>
+        <div
+          className="container"
+          style={{
+            maxWidth: "100%",
+            marginRight: "-15px !important",
+            marginLeft: "-15px !important",
+          }}
+        >
           <div
             style={{
               backgroundImage:
