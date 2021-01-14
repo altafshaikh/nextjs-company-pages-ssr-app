@@ -61,3 +61,14 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Author
+
+* **Altaf Shaikh** - *work by* - [ialtafshaikh](https://github.com/ialtafshaikh)
+
+![altaf shaikh](https://raw.githubusercontent.com/ialtafshaikh/static-files/master/coollogo_com-327551664.png)
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
