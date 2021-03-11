@@ -23,7 +23,7 @@ To Download this project and run locally
 
 First, clone the repository into your local machine:
 ```
-git clone https://github.com/ialtafshaikh/nextjs-company-ssr.git
+git clone https://github.com/altafshaikh/nextjs-company-pages-ssr-app.git
 ```
 Secondly, install all the dependencies
 ```
